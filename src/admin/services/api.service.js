@@ -3,7 +3,7 @@
  * Handles all HTTP requests with authentication and error handling
  */
 
-const API_BASE_URL = process.env.REACT_APP_API_BASE_URL || 'http://72.61.171.34:3000/api';
+const API_BASE_URL = process.env.REACT_APP_API_BASE_URL || 'https://saloon-booking-management.onrender.com/api';
 
 class ApiService {
   constructor() {
